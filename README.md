@@ -5,7 +5,7 @@
 * Quentin Aimé - PO, dev
 * Federica Alfano - PM, PO, dev
 * Aymeline Chemin  - PD
-* Mélanie Da Costa - PM, PO
+* Mélanie Da Costa - PM, PO, PD
 * Rainald Durand - PM, dev
 * Mathieu Gelbon - dev
 * Ketsia Pedro - dev
