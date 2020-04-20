@@ -2,14 +2,14 @@
 
 ## Group
 
-* Quentin Aimé
-* Federica Alfano
-* Aymeline Chemin 
-* Mélanie Da Costa
-* Rainald Durand
-* Mathieu Gelbon
-* Ketsia Pedro
-* Marie Te
+* Quentin Aimé - PO, dev
+* Federica Alfano - PM, PO, dev
+* Aymeline Chemin  - PD
+* Mélanie Da Costa - PM, PO
+* Rainald Durand - PM, dev
+* Mathieu Gelbon - dev
+* Ketsia Pedro - dev
+* Marie Te - PD
 
 ## Repo back
 
