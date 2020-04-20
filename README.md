@@ -1,6 +1,6 @@
 # Students Platform Projet
 
-Group:
+## Group
 
 * Quentin Aimé
 * Federica Alfano
@@ -11,3 +11,6 @@ Group:
 * Ketsia Pedro
 * Marie Te
 
+## Repo back
+
+[Back repository](https://github.com/raindevops/student_platform)
