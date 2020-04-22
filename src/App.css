@@ -1,4 +1,15 @@
+@font-face {
+  font-family: "Abril";
+  src: url("https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+}
+
 .App {
+  font-family: "Poppins";
   text-align: center;
 }
 
