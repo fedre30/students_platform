@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Header } from "../molecules/header";
 import { SubTitle } from "../atoms/subtitle";
@@ -7,8 +7,7 @@ import { Picture } from "../atoms/picture";
 import { Text } from "../atoms/text";
 import group from "../../assets/images/group.jpg";
 
-export const AboutSection = () => {
-  const [member, setMember] = useState(1);
+export const AboutSection = ({ member, setMember }) => {
   return (
     <AboutContainer>
       <Header setMember={setMember} />
