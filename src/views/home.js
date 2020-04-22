@@ -3,6 +3,7 @@ import { Navbar } from "../components/molecules/navbar";
 import { IntroSection } from "../components/organisms/intro-section";
 import { AboutSection } from "../components/organisms/about-section";
 import { WorksSections } from "../components/organisms/works-section";
+import { ContactSection } from "../components/organisms/contact-section";
 
 export const Home = () => {
   const [member, setMember] = useState(1);
@@ -12,6 +13,7 @@ export const Home = () => {
       <IntroSection />
       <AboutSection member={member} setMember={setMember} />
       <WorksSections member={member} setMember={setMember} />
+      <ContactSection />
     </div>
   );
 };
