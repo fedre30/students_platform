@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import styled from "styled-components";
 
 const PageTitleStyle = styled.h1`
-  font-family: "Poppins";
+  font-family: "Abril Fatface", cursive;
   font-weight: 600;
   font-size: 18px;
   line-height: 80px;
@@ -12,7 +12,7 @@ const PageTitleStyle = styled.h1`
 `;
 
 const TitleStyle = styled.h2`
-  font-family: "Poppins";
+  font-family: "Abril Fatface", cursive;
   font-weight: 600;
   font-size: 18px;
   line-height: 80px;
