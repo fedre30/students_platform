@@ -1,36 +1,27 @@
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
+import React from "react";
+import PropTypes from "prop-types";
+import styled from "styled-components";
 
-const alignments = {
-    left:{
-        textAlign: 'left',
-    },
-    center: {
-        textAlign: 'center',
-    },
-    right: {
-        textAlign: 'right',
-    }
-}
-
-const SubTitle = styled.h3`
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 80px;
-    line-height: 80px;
-    color: #865A5A;
-    text-align: ${props => alignments[props.alignment].textAlign};
+const SubTitleStyle = styled.h3`
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 80px;
+  color: #865a5a;
+  text-align: ${(props) => (props.alignment ? props.alignment : "left")};
 `;
 
-SubTitle.displayName = 'Subtitle';
+export const SubTitle = ({ content, alignment }) => (
+  <SubTitleStyle alignment={alignment}>{content}</SubTitleStyle>
+);
+
+SubTitle.displayName = "Subtitle";
 
 SubTitle.defaultProps = {
-    alignment: 'center',
+  alignment: "center",
 };
 
 SubTitle.propTypes = {
-    alignment: PropTypes.oneOf(['left', 'center', 'right']),
-    content: PropTypes.element.isRequired
+  alignment: PropTypes.oneOf(["left", "center", "right"]),
+  content: PropTypes.element.isRequired,
 };
-
-export default SubTitle;
