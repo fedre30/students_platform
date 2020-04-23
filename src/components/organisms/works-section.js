@@ -9,7 +9,7 @@ import { Grid } from "../atoms/grid";
 
 export const WorksSections = ({ member, setMember }) => {
   return (
-    <WorkContainer>
+    <WorkContainer id="works">
       <Layout>
         <Grid>
           <WorkCard imgUrl={work1} title="01 : Lorem Ipsum" />
