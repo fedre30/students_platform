@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About section component Matches the snapshot 1`] = `
+<section
+  className="sc-Axmtr iyERoH"
+>
+  <div
+    className="sc-AxirZ jYjzEF"
+  >
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="ramen.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="melanie.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="marie.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="aymeline.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="quentin.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="rainald.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="federica.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="mathieu.svg"
+      />
+    </div>
+    <div
+      className="sc-AxjAm kufRBV"
+    >
+      <img
+        alt="thumbnail"
+        src="ketsia.svg"
+      />
+    </div>
+  </div>
+  <h3
+    className="sc-AxiKw dXvIgp"
+  >
+    MY STORY
+  </h3>
+  <h2
+    className="sc-AxhUy bJGCUG"
+  >
+    about me
+  </h2>
+  <div
+    className="sc-AxmLO eTgygq"
+  >
+    <div
+      className="sc-AxgMl clkmuO"
+    >
+      <img
+        alt="background"
+        src="group.jpg"
+      />
+    </div>
+    <div
+      className="sc-AxheI ldjAXd"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at egestas risus. Nam dignissim tellus et quam viverra bibendum. Praesent vel mi vitae sem efficitur porta vel sit amet orci. Proin quam purus, lobortis quis porttitor in, consequat maximus elit. Quisque interdum nunc quis suscipit tempus. Fusce tempus ex in enim sagittis hendrerit. Nunc odio elit, volutpat sed nunc sed, lobortis rhoncus nulla. Phasellus vitae metus sed ligula ornare vehicula. Sed finibus mollis commodo.
+    </div>
+  </div>
+</section>
+`;

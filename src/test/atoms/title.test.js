@@ -4,7 +4,7 @@ import { Title } from "../../components/atoms/title";
 
 describe("Title component", () => {
   test("Matches the snapshot", () => {
-    const button = create(<Title content="test" />);
-    expect(button.toJSON()).toMatchSnapshot();
+    const title = create(<Title content={"test"} />);
+    expect(title.toJSON()).toMatchSnapshot();
   });
 });
