@@ -34,7 +34,9 @@ export const Navbar = () => {
 };
 
 const Container = styled.div`
-  width: 100%;
+  padding: 40px 95px 0;
+  width: calc(100% - 190px);
   display: flex;
   flex-direction: space-between;
+  align-items: center;
 `;
