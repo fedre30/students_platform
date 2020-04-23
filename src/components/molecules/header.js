@@ -28,11 +28,12 @@ export const Header = ({ setMember }) => {
   ];
   return (
     <HeaderContainer>
-      {members.map((member) => (
+      {members.map((member, i) => (
         <Thumbnail
           imgUrl={member.imgUrl}
           id={member.id}
           setMember={setMember}
+          key={i}
         />
       ))}
     </HeaderContainer>

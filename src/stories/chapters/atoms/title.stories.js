@@ -4,7 +4,7 @@ import { Title } from "../../../components/atoms/title";
 
 const doc = `
 \`\`\`
-import { Title } from "styles/atoms";
+import { Title } from "../../../components/atoms/title";
 \`\`\`
 `;
 

@@ -30,9 +30,9 @@ PageTitle.displayName = "Page Title";
 Title.displayName = "Title";
 
 Title.propTypes = {
-  content: PropTypes.element.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 PageTitle.propTypes = {
-  content: PropTypes.element.isRequired,
+  content: PropTypes.string.isRequired,
 };

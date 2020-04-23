@@ -36,11 +36,12 @@ export const ContactSection = () => {
       <SubTitle content="DO YOU WANT TO CONTACT US?" />
       <Title content="contact us" />
       <LinksContainer>
-        {socials.map((social) => (
+        {socials.map((social, i) => (
           <CustomSocial
             label={social.label}
             logo={social.logo}
             link={social.link}
+            key={i}
           />
         ))}
       </LinksContainer>

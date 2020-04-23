@@ -23,5 +23,5 @@ SubTitle.defaultProps = {
 
 SubTitle.propTypes = {
   alignment: PropTypes.oneOf(["left", "center", "right"]),
-  content: PropTypes.element.isRequired,
+  content: PropTypes.string.isRequired,
 };

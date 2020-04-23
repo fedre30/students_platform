@@ -26,8 +26,8 @@ export const Navbar = () => {
   return (
     <Container>
       <Logo />
-      {links.map((link) => (
-        <Anchor label={link.label} url={link.url} />
+      {links.map((link, i) => (
+        <Anchor label={link.label} url={link.url} key={i} />
       ))}
     </Container>
   );

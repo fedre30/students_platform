@@ -16,10 +16,10 @@ export const CustomModal = ({
   return (
     <Modal isOpen={isOpen} onRequestClose={onRequestClose} contentLabel="Work">
       <button onClick={onRequestClose}>close</button>
-      <Title content={title} />
+      <Title content={title || ""} />
       <Picture imgUrl={thumbnail} />
       <Text>{description}</Text>
-      <Title content={detailsTitle} />
+      <Title content={detailsTitle || ""} />
       <Text>{details}</Text>
     </Modal>
   );
