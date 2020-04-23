@@ -10,8 +10,8 @@ export const Picture = ({ imgUrl }) => {
 };
 
 const PictureContainer = styled.div`
-  width: 400px;
-  height: 400px;
+  max-width: 800px;
+  max-height: 800px;
   img {
     width: 100%;
   }

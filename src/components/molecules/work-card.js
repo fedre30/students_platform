@@ -15,7 +15,7 @@ export const WorkCard = ({
   return (
     <Container onClick={() => setOpenModal(!openModal)}>
       <Picture imgUrl={imgUrl} />
-      <CustomTitle content={title} />
+      <CustomTitle content={title} style={{ fontSize: "3rem" }} />
       <CustomModal
         title={title}
         thumbnail={imgUrl}
@@ -28,6 +28,7 @@ export const WorkCard = ({
 
 const Container = styled.div`
   width: 500px;
+  margin: 1rem;
   display: flex;
   flex-direction: column;
 `;

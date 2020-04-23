@@ -25,9 +25,14 @@ const Container = styled.div`
 
 const SocialStyle = styled.button`
   width: 200px;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: flex;
   align-items: center;
+  margin: 1rem;
+  border: none;
+  background: ${color.secondary};
+  font-size: 1rem;
+  text-align: center;
 `;
 
 const SocialLabel = styled.div`

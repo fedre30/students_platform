@@ -11,7 +11,7 @@ import federica from "../../assets/images/federica.svg";
 import mathieu from "../../assets/images/mathieu.svg";
 import ketsia from "../../assets/images/ketsia.svg";
 
-export const Header = ({ setMember }) => {
+export const Header = ({ setMember, style }) => {
   const members = [
     {
       id: 1,
@@ -27,7 +27,7 @@ export const Header = ({ setMember }) => {
     { id: 9, imgUrl: ketsia },
   ];
   return (
-    <HeaderContainer>
+    <HeaderContainer style={style}>
       {members.map((member, i) => (
         <Thumbnail
           imgUrl={member.imgUrl}
