@@ -5,3 +5,7 @@
   text-align: center;
   overflow: hidden;
 }
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}

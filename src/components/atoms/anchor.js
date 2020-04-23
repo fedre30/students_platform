@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { color } from "../../assets/const";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export const Anchor = ({ label, url, style }) => {
   return (
@@ -12,7 +13,7 @@ export const Anchor = ({ label, url, style }) => {
   );
 };
 
-const Link = styled.a`
+const Link = styled(AnchorLink)`
   text-decoration: none;
   color: ${color.primary};
 `;

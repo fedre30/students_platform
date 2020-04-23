@@ -12,6 +12,9 @@ export const WorkCard = ({
   details,
 }) => {
   const [openModal, setOpenModal] = useState(false);
+
+  const descriptionTest =
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at finibus nunc, non congue lectus. Praesent venenatis libero eget sem posuere, eu dictum elit scelerisque. Aenean vitae laoreet urna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec finibus odio nec diam tempor, sit amet blandit ex euismod. Etiam non metus congue, feugiat dolor vel, accumsan est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut rhoncus dolor.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at finibus nunc, non congue lectus. ";
   return (
     <Container onClick={() => setOpenModal(!openModal)}>
       <Picture imgUrl={imgUrl} />
@@ -21,6 +24,7 @@ export const WorkCard = ({
         thumbnail={imgUrl}
         isOpen={openModal}
         onRequestClose={() => setOpenModal(false)}
+        description={descriptionTest}
       />
     </Container>
   );

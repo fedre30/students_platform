@@ -7,15 +7,17 @@ import { Layout } from "../atoms/layout";
 
 export const IntroSection = () => {
   return (
-    <Layout>
-      <IntroContainer>
-        <div className="text">
-          <SubTitle content="GROUP 5 - SCHOOL PROJECT" />
-          <PageTitle content="creating a new project" alignment="left" />
-        </div>
-        <img src={backgroundPicture} alt="ramen drawing" />
-      </IntroContainer>
-    </Layout>
+    <section id="home">
+      <Layout>
+        <IntroContainer>
+          <div className="text">
+            <SubTitle content="GROUP 5 - SCHOOL PROJECT" />
+            <PageTitle content="creating a new project" alignment="left" />
+          </div>
+          <img src={backgroundPicture} alt="ramen drawing" />
+        </IntroContainer>
+      </Layout>
+    </section>
   );
 };
 
@@ -29,11 +31,10 @@ const IntroContainer = styled.div`
   flex-wrap: no-wrap;
   .text {
     position: relative;
-    z-index: 2;
+    z-index: 1;
   }
   img {
     position: relative;
-    z-index: 1;
     margin-left: -300px;
   }
 `;
