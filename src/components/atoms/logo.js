@@ -30,4 +30,5 @@ export const Logo = () => {
 
 const Container = styled.div`
   width: 2rem;
+  margin-right: 50%;
 `;
