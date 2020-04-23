@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Anchor } from "../atoms/anchor";
 import { Logo } from "../atoms/logo";
+import { Layout } from "../atoms/layout";
 
 export const Navbar = () => {
   const links = [
@@ -24,19 +25,32 @@ export const Navbar = () => {
   ];
 
   return (
-    <Container>
-      <Logo />
-      {links.map((link) => (
-        <Anchor label={link.label} url={link.url} />
-      ))}
-    </Container>
+    <Layout>
+      <Container>
+        <Logo />
+        <Menu>
+          {links.map((link, i) => (
+            <Anchor
+              label={link.label}
+              url={link.url}
+              key={i}
+              style={{ marginRight: "2rem" }}
+            />
+          ))}
+        </Menu>
+      </Container>
+    </Layout>
   );
 };
 
 const Container = styled.div`
-  padding: 40px 95px 0;
   width: calc(100% - 190px);
   display: flex;
-  flex-direction: space-between;
+  justify-content: space-between;
   align-items: center;
+`;
+
+const Menu = styled.nav`
+  display: flex;
+  justify-content: space-between;
 `;
