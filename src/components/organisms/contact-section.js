@@ -7,6 +7,7 @@ import twitter from "../../assets/images/twitter.svg";
 import github from "../../assets/images/github.svg";
 import gmail from "../../assets/images/gmail.svg";
 import { Social } from "../molecules/social";
+import { TitleContainer } from "../molecules/title-container";
 
 export const ContactSection = () => {
   const socials = [
@@ -32,15 +33,18 @@ export const ContactSection = () => {
     },
   ];
   return (
-    <ContactContainer>
-      <SubTitle content="DO YOU WANT TO CONTACT US?" />
-      <Title content="contact us" />
+    <ContactContainer id="contact">
+      <TitleContainer>
+        <SubTitle content="DO YOU WANT TO CONTACT US?" />
+        <Title content="contact us" />
+      </TitleContainer>
       <LinksContainer>
-        {socials.map((social) => (
+        {socials.map((social, i) => (
           <CustomSocial
             label={social.label}
             logo={social.logo}
             link={social.link}
+            key={i}
           />
         ))}
       </LinksContainer>
@@ -48,8 +52,9 @@ export const ContactSection = () => {
   );
 };
 
-const ContactContainer = styled.div`
+const ContactContainer = styled.section`
   width: 100%;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
