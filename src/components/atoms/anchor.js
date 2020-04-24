@@ -12,5 +12,12 @@ export const Anchor = ({ label, url }) => {
 
 const Link = styled.a`
   text-decoration: none;
+  text-transform: uppercase;
   color: ${color.primary};
+  +a {
+    margin-left: 20px;
+  }
+  &:hover {
+    color: ${color.secondary};
+  }
 `;
