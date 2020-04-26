@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About section component Matches the snapshot 1`] = `
+<section
+  id="about"
+>
+  <div
+    className="sc-AxhUy bpSWuf"
+  >
+    <div
+      className="sc-fznyAO lhbMCo"
+    >
+      <div
+        className="sc-fznKkj jimMZi"
+      >
+        <div
+          className="sc-fzoLsD jWHbYF"
+        >
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="ramen.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="melanie.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="marie.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="aymeline.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="quentin.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="rainald.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="federica.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="mathieu.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="ketsia.svg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl iuyHAx"
+      >
+        <div>
+          <h3
+            className="sc-fzpans eqgTLV"
+          >
+            MY STORY
+          </h3>
+        </div>
+        <div>
+          <h2
+            className="sc-AxirZ jVcUhu"
+          >
+            about me
+          </h2>
+        </div>
+      </div>
+      <div
+        className="sc-fzplWN gZrXEp"
+      >
+        <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-AxiKw lfNKtV"
+          >
+            <img
+              alt="background"
+              src="group.jpg"
+            />
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-AxhCb fccpwv"
+            style={
+              Object {
+                "width": "70%",
+              }
+            }
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at egestas risus. Nam dignissim tellus et quam viverra bibendum. Praesent vel mi vitae sem efficitur porta vel sit amet orci. Proin quam purus, lobortis quis porttitor in, consequat maximus elit. Quisque interdum nunc quis suscipit tempus. Fusce tempus ex in enim sagittis hendrerit. Nunc odio elit, volutpat sed nunc sed, lobortis rhoncus nulla. Phasellus vitae metus sed ligula ornare vehicula. Sed finibus mollis commodo.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Atoms|Title content 1`] = `
+<h2
+  className="sc-AxirZ jVcUhu"
+>
+  Custom text
+</h2>
+`;
+
+exports[`Storyshots Button Emoji 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Molecules|Modal default 1`] = `
+<div
+  className="sc-AxmLO eCfFIj"
+/>
+`;
+
+exports[`Storyshots Organisms|AboutSection default 1`] = `
+<section
+  id="about"
+>
+  <div
+    className="sc-AxhUy bpSWuf"
+  >
+    <div
+      className="sc-fznyAO lhbMCo"
+    >
+      <div
+        className="sc-fznKkj jimMZi"
+      >
+        <div
+          className="sc-fzoLsD jWHbYF"
+        >
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="ramen.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="melanie.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="marie.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="aymeline.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="quentin.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="rainald.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="federica.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="mathieu.svg"
+            />
+          </div>
+          <div
+            className="sc-fzozJi iIylhY"
+          >
+            <img
+              alt="thumbnail"
+              src="ketsia.svg"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-AxgMl iuyHAx"
+      >
+        <div>
+          <h3
+            className="sc-fzpans eqgTLV"
+          >
+            MY STORY
+          </h3>
+        </div>
+        <div>
+          <h2
+            className="sc-AxirZ jVcUhu"
+          >
+            about me
+          </h2>
+        </div>
+      </div>
+      <div
+        className="sc-fzplWN gZrXEp"
+      >
+        <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-AxiKw lfNKtV"
+          >
+            <img
+              alt="background"
+              src="group.jpg"
+            />
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="sc-AxhCb fccpwv"
+            style={
+              Object {
+                "width": "70%",
+              }
+            }
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at egestas risus. Nam dignissim tellus et quam viverra bibendum. Praesent vel mi vitae sem efficitur porta vel sit amet orci. Proin quam purus, lobortis quis porttitor in, consequat maximus elit. Quisque interdum nunc quis suscipit tempus. Fusce tempus ex in enim sagittis hendrerit. Nunc odio elit, volutpat sed nunc sed, lobortis rhoncus nulla. Phasellus vitae metus sed ligula ornare vehicula. Sed finibus mollis commodo.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`Storyshots Welcome to Storybook 1`] = `
+<article
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "color": "#000",
+      "fontFamily": "\\"Helvetica Neue\\", Helvetica, \\"Segoe UI\\", Arial, freesans, sans-serif",
+      "lineHeight": 1.4,
+      "padding": 15,
+    }
+  }
+>
+  <h1>
+    Welcome to storybook
+  </h1>
+  <p>
+    This is a UI component dev environment for your app.
+  </p>
+  <p>
+    We've added some basic stories inside the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories
+    </code>
+     directory.
+    <br />
+    A story is a single state of one or more UI components. You can have as many stories as you want.
+    <br />
+    (Basically a story is like a visual test case.)
+  </p>
+  <p>
+    See these sample 
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "backgroundColor": "transparent",
+          "borderBottom": "1px solid #1474f3",
+          "borderLeft": "none",
+          "borderRight": "none",
+          "borderTop": "none",
+          "color": "#1474f3",
+          "cursor": "pointer",
+          "font": "inherit",
+          "padding": 0,
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      type="button"
+    >
+      stories
+    </button>
+     for a component called 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+    .
+  </p>
+  <p>
+    Just like that, you can add your own components as stories.
+    <br />
+    You can also edit those components and see changes right away.
+    <br />
+    (Try editing the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      Button
+    </code>
+     stories located at 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      src/stories/1-Button.stories.js
+    </code>
+    .)
+  </p>
+  <p>
+    Usually we create stories with smaller UI components in the app.
+    <br />
+    Have a look at the 
+    <a
+      href="https://storybook.js.org/basics/writing-stories"
+      rel="noopener noreferrer"
+      style={
+        Object {
+          "borderBottom": "1px solid #1474f3",
+          "color": "#1474f3",
+          "paddingBottom": 2,
+          "textDecoration": "none",
+        }
+      }
+      target="_blank"
+    >
+      Writing Stories
+    </a>
+     section in our documentation.
+  </p>
+  <p
+    style={
+      Object {
+        "opacity": 0.5,
+      }
+    }
+  >
+    <b>
+      NOTE:
+    </b>
+    <br />
+    Have a look at the 
+    <code
+      style={
+        Object {
+          "backgroundColor": "#f3f2f2",
+          "border": "1px solid #eae9e9",
+          "borderRadius": 4,
+          "color": "#3a3a3a",
+          "fontSize": 15,
+          "fontWeight": 600,
+          "padding": "2px 5px",
+        }
+      }
+    >
+      .storybook/webpack.config.js
+    </code>
+     to add webpack loaders and plugins you are using in this project.
+  </p>
+</article>
+`;
+
+exports[`Title component Matches the snapshot 1`] = `
+<h2
+  className="sc-AxirZ jVcUhu"
+>
+  test
+</h2>
+`;
