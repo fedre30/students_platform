@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import { storiesOf } from "@storybook/react";
-import { Modal } from "../../../components/molecules/modal";
+import { CustomModal } from "../../../components/molecules/modal";
 import image from "../../../assets/images/work-1.jpg";
 
 export const doc = `
 \`\`\`
-import { Modal } from "../../../components/molecules/modal";
+import { CustomModal } from "../../../components/molecules/modal";
 \`\`\`
 `;
 
@@ -31,7 +31,7 @@ storiesOf("Molecules|Modal", module)
   .add("default", () => {
     return (
       <ModalContainer>
-        <Modal
+        <CustomModal
           title="Modal title"
           thumbnail={image}
           description="Modal description"
