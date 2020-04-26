@@ -22,6 +22,10 @@ const ModalContainer = styled.div`
   }
 `;
 
+const onRequestClose = () => {
+  console.debug("close modal");
+}
+
 storiesOf("Molecules|Modal", module)
   .addParameters({
     readme: {
@@ -35,6 +39,10 @@ storiesOf("Molecules|Modal", module)
           title="Modal title"
           thumbnail={image}
           description="Modal description"
+          detailsTitle="Details title"
+          details="Details"
+          isOpen={true}
+          onRequestClose={onRequestClose}
         />
       </ModalContainer>
     );
