@@ -1,6 +1,6 @@
-# Groupe 5 Portfolio
+# Groupe 5 Portfolio 📖
 
-## Group
+## Group 
 
 - Quentin Aimé - PO, dev
 - Federica Alfano - PM, PO, dev
@@ -11,15 +11,15 @@
 - Ketsia Pedro - dev
 - Marie Te - PD
 
-## Design
+## Design 🎨
 
 [Design Figma](https://www.figma.com/file/PbLFSbWmfnNaHe52XUc0oR/GROUPE-5?node-id=76%3A2)
 
-## User Stories
+## User Stories ✍🏻
 
 [User stories](https://docs.google.com/document/d/1XnPvPou2BVnthXuB6Kxbs9q2YfC55Md6PAyPF2Cxauw/edit?usp=sharing)
 
-## Repo back
+## Repo back 🔙
 
 [Back repository](https://github.com/raindevops/student_platform)
 
